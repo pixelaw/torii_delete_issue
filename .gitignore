@@ -1,1 +1,6 @@
-target
+contract/target
+TORII.sqlite
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/torii_delete_issue.iml
+/.idea/vcs.xml
