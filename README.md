@@ -9,9 +9,9 @@ can create a person and delete a person.
 ````shell
 curl -L https://install.dojoengine.org | bash
 ````
-## Install dojo v0.5.1
+## Install dojo v0.6.0-alpha.3
 ````shell
-dojoup --version v0.5.1
+dojoup --version v0.6.0-alpha.3
 ````
 
 ## Build contract
@@ -32,7 +32,7 @@ katana
 
 ## Migrate world
 ````shell
-sozo migrate --manifest-path ./contract/Scarb.toml
+cd contract && sozo migrate
 ````
 
 ## Initialize the world
@@ -42,7 +42,7 @@ bash contract/scripts/default_auth.sh
 
 ## Run torii
 ````shell
-torii -w 0x2ac6e34b79cfc17ad659d7b1b88de9d0471f029b1ff942515e2ebfea342c150 -d TORII.sqlite
+torii -w 0x2cfdabed6e6ae30ccc38f33624dc2067281a1cb69530d6b973826517c3a3904 -d TORII.sqlite
 ````
 
 ## Run react-app

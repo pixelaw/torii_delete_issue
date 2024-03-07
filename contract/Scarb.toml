@@ -7,7 +7,7 @@ version = "0.5.1"
 sierra-replace-ids = true
 
 [dependencies]
-dojo = { git = "https://github.com/dojoengine/dojo", tag = "v0.5.1" }
+dojo = { git = "https://github.com/dojoengine/dojo", tag = "v0.6.0-alpha.3" }
 
 [[target.dojo]]
 
@@ -19,6 +19,7 @@ rpc_url = "http://localhost:5050/"
 # Default account for katana with seed = 0
 account_address = "0x6162896d1d7ab204c7ccac6dd5f8e9e7c25ecd5ae4fcb4ad32e57786bb46e03"
 private_key = "0x1800000000300000180000000000030000000000003006001800006600"
+world_address = "0x2cfdabed6e6ae30ccc38f33624dc2067281a1cb69530d6b973826517c3a3904"
 
 [tool.dojo.world]
 name = "Torii Delete Issue"

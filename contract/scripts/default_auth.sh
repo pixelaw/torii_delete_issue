@@ -18,7 +18,7 @@ echo "--------------------------------------------------------------------------
 COMPONENTS=("Person")
 
 for component in ${COMPONENTS[@]}; do
-    sozo auth writer --world $WORLD_ADDRESS --rpc-url $RPC_URL $component $ACTIONS_ADDRESS
+    sozo auth grant writer $component,$ACTIONS_ADDRESS
     # time out for 1 second to avoid rate limiting
     sleep 1
 done
